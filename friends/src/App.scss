@@ -1,0 +1,30 @@
+nav {
+  ul {
+    display: flex;
+    justify-content: space-around;
+
+    li {
+      list-style: none;
+
+      .login {
+        margin-left: auto
+      }
+
+      .protect {
+        order: 2;
+      }
+
+      .link {
+        text-decoration: none;
+        color: rgb(110, 86, 175);
+        font-weight: 700;
+        font-size: 1.6rem;
+        // margin-left: auto;
+
+
+
+      }
+    }
+  }
+
+}
